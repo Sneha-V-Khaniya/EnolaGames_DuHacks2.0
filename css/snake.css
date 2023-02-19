@@ -1,0 +1,32 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Audiowide", sans-serif;
+    background-color: black;
+}   
+
+h1{
+    color: #bab9b9;
+}
+
+canvas{
+    box-shadow: #a0a0a0cd 2px 2px 30px;
+    border: grey solid 10px;
+}
+
+button {
+    border: none;
+    border-radius: 0.6em;
+    padding: 1em 1.5em;
+    cursor: pointer;
+    margin: 20px;
+    font-family: "Audiowide", sans-serif;
+    border: 1px black solid;
+    font-size: 15px;
+    
+}
+

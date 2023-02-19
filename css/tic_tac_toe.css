@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+#cont {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#smallcont {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 50vh;
+    height: 50vh;
+}
+
+.btn {
+    color: black;
+    cursor: pointer;
+    background-color: rgb(249, 251, 252);
+    font-size: 6vmin;
+}
+
+.btn:hover {
+    background-color: rgb(195, 198, 198);
+
+}
+
+#head {
+    height: 20vh;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#head h1 {
+    color: white;
+    font-size: 6vmin;
+    font-family: "Audiowide", sans-serif;
+}
